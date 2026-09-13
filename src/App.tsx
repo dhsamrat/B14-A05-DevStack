@@ -5,6 +5,7 @@ import Techonology from "./components/technologies/Techonology";
 import type { Itechnology } from "./types/type";
 import { Bounce, toast } from "react-toastify";
 import Nav from "./components/Nav";
+import Banner from "./components/Banner";
 
 function App() {
   const [technologies, setTechnologies] = useState<Itechnology[]>([]);
@@ -72,6 +73,8 @@ function App() {
   return (
     <>
       <Nav />
+
+      <Banner />
       {loading ? (
         <h2 className="text-center py-10">
           Loading.......
