@@ -6,7 +6,6 @@ import type { Itechnology } from "./types/type";
 import { Bounce, toast } from "react-toastify";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
-import Footer from "./components/Footer";
 
 function App() {
   const [technologies, setTechnologies] = useState<Itechnology[]>([]);
