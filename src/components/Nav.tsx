@@ -6,7 +6,7 @@ const Nav = () => {
 
     return (
         <nav className="sticky top-0 z-50 bg-white border-b border-gray-100">
-            <div className="max-w-7xl mx-auto px-4 py-4">
+            <div className="max-w-7xl mx-auto px-3 py-4">
                 {/* Desktop */}
                 <div className="hidden md:flex items-center justify-between">
                     <a href="#home">
