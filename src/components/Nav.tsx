@@ -12,7 +12,7 @@ const Nav = () => {
                     <a href="#home">
                         <img
                             src={Logo}
-                            alt="Dev Stack"
+                            alt="Dev Stack" 
                             className="w-32" />
                     </a>
 
