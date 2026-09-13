@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 
 import Techonology from "./components/technologies/Techonology";
+
 import type { Itechnology } from "./types/type";
 import { Bounce, toast } from "react-toastify";
+import Nav from "./components/Nav";
 
 function App() {
   const [technologies, setTechnologies] = useState<Itechnology[]>([]);
@@ -69,6 +71,7 @@ function App() {
 
   return (
     <>
+      <Nav />
       {loading ? (
         <h2 className="text-center py-10">
           Loading.......
